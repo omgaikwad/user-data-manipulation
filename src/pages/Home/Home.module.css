@@ -1,0 +1,73 @@
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userlist_heading_container {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid blue;
+  padding: 8px 1rem;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.userlist_heading_container p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.userlist_wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--crimson);
+  margin: 2rem 0;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.userlist_buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.userlist_buttons h3 {
+  color: white;
+}
+
+.userlist_container {
+  /* border: 1px solid red; */
+  width: 80%;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 3rem;
+}
+
+.add_user_btn {
+  background-color: white;
+  color: var(--crimson);
+  padding: 8px 1rem;
+  border-radius: 50%;
+  border: none;
+  font-weight: 600;
+  font-size: 1.8rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.add_user_btn:hover {
+  transition: 0.3s ease-in-out;
+  color: #c73261;
+}

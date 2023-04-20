@@ -1,0 +1,103 @@
+.modal_background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_container {
+  width: 16rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.modal_heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.close_btn {
+  border: none;
+  color: var(--crimson);
+  background-color: transparent;
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.new_user_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal_input {
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid var(--crimson);
+  border-radius: 12px;
+  padding: 12px 1rem;
+}
+
+::placeholder {
+  color: grey;
+  font-size: 1rem;
+}
+
+.modal_button_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modal_cancel_btn {
+  border: 2px solid var(--crimson);
+  color: var(--crimson);
+  background-color: white;
+  padding: 8px 1rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 6rem;
+}
+
+.modal_add_btn {
+  border: 2px solid var(--crimson);
+  color: white;
+  background-color: var(--crimson);
+  padding: 8px 1rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 6rem;
+}
+
+.error_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error_text {
+  color: var(--crimson);
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0;
+}
