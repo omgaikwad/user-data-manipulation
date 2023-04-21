@@ -1,6 +1,5 @@
 .searchbar_wrapper {
   width: 100%;
-  border: 1px solid green;
   height: 4rem;
   box-sizing: border-box;
   display: flex;
@@ -45,4 +44,21 @@
 .searchbar_container:focus-within {
   border: 2px solid var(--crimson);
   border-radius: 8px;
+}
+
+/* Media Queries for Mobile Responsive Design */
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .searchbar_container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
 }

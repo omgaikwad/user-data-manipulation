@@ -7,10 +7,7 @@ import Searchbar from "../../components/Navbar/Searchbar";
 const Home = () => {
   const [userData, setUserData] = useState([]);
   const [showAddUserModal, setShowAddUserModal] = useState(false);
-
   const [filteredUsers, setFilteredUsers] = useState([]);
-
-  console.log(filteredUsers);
 
   const searchHandler = (e) => {
     const query = e.target.value.toLowerCase();
@@ -73,7 +70,7 @@ const Home = () => {
       <Searchbar searchHandler={searchHandler} />
       <div className={styles["userlist_wrapper"]}>
         <div className={styles["userlist_buttons"]}>
-          <h3>All Users</h3>
+          <h3>Users</h3>
           <button
             onClick={() => setShowAddUserModal(true)}
             className={styles["add_user_btn"]}

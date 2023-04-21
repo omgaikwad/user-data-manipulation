@@ -9,3 +9,33 @@
   align-items: center;
   justify-content: space-between;
 }
+
+/* Media Queries for Mobile Responsive Design */
+
+@media screen and (max-width: 1280px) {
+  .single_user {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .single_user {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .single_user p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .single_user {
+    padding: 8px 8px;
+  }
+
+  .single_user p {
+    font-size: 8px;
+  }
+}
